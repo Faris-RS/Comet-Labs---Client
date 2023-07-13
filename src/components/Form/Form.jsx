@@ -3,7 +3,7 @@ import React from "react";
 export default function Form() {
   return (
     <>
-      <section id="joinFormSection" className="py-6 bg-red-500 text-white">
+      <section id="joinFormSection" className="py-6 bg-red-500 text-white cursor-default">
         <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
           <div className="py-6 md:mt-20 mt-0 md:py-0 md:px-6">
             <h1 className="text-4xl font-bold">Join us</h1>

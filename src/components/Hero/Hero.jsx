@@ -15,7 +15,7 @@ export default function Hero() {
 
   return (
     <>
-      <div className="relative">
+      <div className="relative cursor-default">
         <div className="relative h-screen overflow-hidden">
           <img
             className="absolute top-0 left-0 object-cover w-full h-full"

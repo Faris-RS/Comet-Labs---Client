@@ -3,16 +3,16 @@ import React from "react";
 export default function Navbar() {
   return (
     <>
-      <nav className="bg-transparent w-100 px-8 md:px-auto">
+      <nav className="bg-transparent w-100 px-8 md:px-auto cursor-default">
         <div className="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap">
           <div className="text-red-500 md:order-1">
             <img
               src="/xplore-low-resolution-logo-color-on-transparent-background.png"
               alt="test"
-              style={{ width: "80px", height: "auto" }}
+              style={{ width: "90px", height: "auto" }}
             />
           </div>
-          <div className="text-gray-500 order-3 w-full md:w-auto md:order-2">
+          <div className="text-gray-500 order-3 w-full md:w-auto md:order-2 text-xl">
             <ul className="flex font-semibold justify-between">
               <li className="md:px-4 md:py-2 text-red-500">
                 <a href="#">Home</a>

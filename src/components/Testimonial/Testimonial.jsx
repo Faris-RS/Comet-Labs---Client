@@ -3,7 +3,7 @@ import React from "react";
 export default function Testimonial() {
   return (
     <>
-      <section className="bg-white">
+      <section className="bg-white cursor-default">
         <div className="mx-auto  px-4 py-16 sm:px-6 sm:py-24 lg:me-0 lg:pe-0 lg:ps-8">
           <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-3 lg:items-center lg:gap-x-16 ml-0 md:ml-12">
             <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
@@ -12,12 +12,6 @@ export default function Testimonial() {
                 <br className="hidden sm:block lg:hidden" />
                 Read reviews from our customers
               </h2>
-
-              {/* <p className="mt-4 text-gray-500">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
-          veritatis illo placeat harum porro optio fugit a culpa sunt id!
-        </p> */}
-
               <div className="hidden lg:mt-8 lg:flex lg:gap-4 ml-96">
                 <button className="prev-button rounded-full border border-red-500 p-3 text-red-500 hover:bg-red-500 hover:text-white">
                   <span className="sr-only">Previous Slide</span>

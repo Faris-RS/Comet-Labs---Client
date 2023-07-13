@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <div class="flex flex-col bg-red-500">
+      <div class="flex flex-col bg-red-500 cursor-default">
         <hr class="border-white" />
         <div class="flex mt-6 mb-6 flex-row justify-center">
           <div class="">
@@ -18,6 +18,10 @@ export default function Footer() {
               Created by Mohamed Faris
             </p>
           </div>
+        </div>
+        <div className="flex justify-center text-white">
+          All credits to corresponding artist, No copyright infringement
+          intended{" "}
         </div>
       </div>
     </>
