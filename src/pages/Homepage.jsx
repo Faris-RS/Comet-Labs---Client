@@ -12,6 +12,7 @@ import FAQ from "../components/FAQ/FAQ";
 export default function Homepage() {
   const [showButton, setShowButton] = useState(false);
 
+  // To determine wheather or not to show the move to top button
   useEffect(() => {
     const handleScroll = () => {
       if (window.pageYOffset > 200) {
@@ -28,6 +29,7 @@ export default function Homepage() {
     };
   }, []);
 
+  // To move user to top of the page
   const handleClick = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };

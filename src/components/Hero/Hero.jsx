@@ -6,6 +6,7 @@ export default function Hero() {
   const imageUrl =
     "https://images.pexels.com/photos/931881/pexels-photo-931881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
 
+  // This function is used to move the user towards the joining form
   const handleJoinUsClick = () => {
     const formSection = document.getElementById("joinFormSection");
     if (formSection) {
