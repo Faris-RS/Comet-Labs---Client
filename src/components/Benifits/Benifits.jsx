@@ -10,9 +10,6 @@ import {
 export default function Benefits() {
   return (
     <section className="bg-white h-fit lg:h-96 mt-36">
-        {/* <div className="text-3xl">
-        Why choose us
-        </div> */}
       <div className="mx-auto p-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="flex flex-col items-center text-center">
           <FontAwesomeIcon
