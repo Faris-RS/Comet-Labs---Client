@@ -5,6 +5,7 @@ import Benifits from "../components/Benifits/Benifits";
 import Footer from "../components/Footer/Footer";
 import Testimonial from "../components/Testimonial/Testimonial";
 import Process from "../components/Example/Example";
+import FAQ from "../components/FAQ/FAQ";
 
 export default function Homepage() {
   return (
@@ -13,7 +14,8 @@ export default function Homepage() {
       <Benifits />
       <Process />
       <Form />
-      <Testimonial/>
+      <Testimonial />
+      <FAQ />
       <Footer />
     </>
   );
